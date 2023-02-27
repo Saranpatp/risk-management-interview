@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.23)
+project(EuropeanDownAndOut_Continuous_Discrete_Option_Pricing)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(EuropeanDownAndOut_Continuous_Discrete_Option_Pricing main.cpp)

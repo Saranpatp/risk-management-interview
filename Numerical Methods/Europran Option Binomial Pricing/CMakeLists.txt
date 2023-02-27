@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.23)
+project(Europran_And_American_Option_Binomial_Pricing)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Europran_And_American_Option_Binomial_Pricing main.cpp)
