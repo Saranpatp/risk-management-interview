@@ -126,23 +126,23 @@ void updateAdjOptionPrices(vector<double>& stock_prices, double& curr_adj_option
 
 
 int main(int argc, char* argv[]) {
-    sscanf(argv[1], "%lf", &duration);
-    sscanf(argv[2], "%lf", &rf);
-    sscanf(argv[3], "%lf", &volatility);
-    sscanf(argv[4], "%lf", &initial_stock_price);
-    sscanf(argv[5], "%lf", &K);
-    sscanf(argv[6], "%d", &n);
-    sscanf(argv[7], "%d", &m);
-    sscanf(argv[8], "%lf", &B);
+    // sscanf(argv[1], "%lf", &duration);
+    // sscanf(argv[2], "%lf", &rf);
+    // sscanf(argv[3], "%lf", &volatility);
+    // sscanf(argv[4], "%lf", &initial_stock_price);
+    // sscanf(argv[5], "%lf", &K);
+    // sscanf(argv[6], "%d", &n);
+    // sscanf(argv[7], "%d", &m);
+    // sscanf(argv[8], "%lf", &B);
 
-//    duration = 1;
-//    rf = 0.05;
-//    volatility = 0.25;
-//    initial_stock_price = 50;
-//    K = 40;
-//    n = 1000000;
-//    m = 1000;
-//    B = 20;
+   duration = 1;
+   rf = 0.05;
+   volatility = 0.25;
+   initial_stock_price = 50;
+   K = 40;
+   n = 1000000;
+   m = 1000;
+   B = 20;
 
     cout << "European Down and Out Continuous Barrier Options Pricing via Monte Carlo Simulation" << endl;
     cout << "Expiration Time (Years) = " << duration << endl;
